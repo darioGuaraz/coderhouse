@@ -1,0 +1,30 @@
+body {
+  background-image: url(src/./img/fondo.jpg);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+img {
+  width: 600px;
+  margin-left: 15%;
+  background-color: transparent;
+}
+
+h1 {
+  margin-left: 5%;
+  color: rgb(227, 228, 222);
+  font-size: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+}
+
+footer {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  padding: 4px;
+  background-color: rgb(174, 207, 24);
+  color: rgb(0, 0, 0);
+}
