@@ -4,20 +4,65 @@ body {
 
 .container {
   display: flex;
-  align-items: center;
-}
-img {
-  width: 600px;
-  margin-left: 15%;
-  background-color: transparent;
+  text-align: center;
 }
 
-h1 {
-  margin-left: 5%;
-  color: rgb(227, 228, 222);
-  font-size: 100px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+img {
+  width: 600px;
+  flex: 50%;
+  margin-left: 9rem;
+}
+
+.titulos {
+  flex: 50%;
+  margin-left: 20px;
+  margin-top: 8%;
+}
+
+h2 {
+  color: rgb(210, 231, 16);
+  font-size: 4rem;
+
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 20px;
+  color: aliceblue;
+  font-size: 25px;
   font-style: oblique;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.panelUI {
+  text-align: center;
+}
+
+#input {
+  margin-top: 25px;
+  font-size: 30px;
+  width: 70%;
+
+  border-radius: 50px;
+  text-align: center;
+}
+input::placeholder {
+  text-align: center;
+  font-family: monospace;
+}
+
+.btn {
+  border-radius: 50px;
+  margin: 4px;
+  margin-top: 15px;
+  padding: 20px;
+  background-color: rgb(172, 212, 28);
+  font-family: monospace;
+  font-size: 25px;
+  border-style: ridge;
 }
 
 footer {
@@ -27,4 +72,15 @@ footer {
   padding: 4px;
   background-color: rgb(174, 207, 24);
   color: rgb(0, 0, 0);
+}
+label {
+  color: aliceblue;
+  font-family: monospace;
+  font-size: 25px;
+}
+p {
+  color: aliceblue;
+  font-family: monospace;
+
+  font-size: 20px;
 }
