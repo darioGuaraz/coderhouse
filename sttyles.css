@@ -5,6 +5,7 @@ body {
 .container {
   display: flex;
   text-align: center;
+  padding: 4px;
 }
 
 img {
@@ -55,10 +56,10 @@ input::placeholder {
 }
 
 .btn {
-  border-radius: 50px;
+  border-radius: 10px;
   margin: 4px;
   margin-top: 15px;
-  padding: 20px;
+  padding: 17px;
   background-color: rgb(172, 212, 28);
   font-family: monospace;
   font-size: 25px;
@@ -81,6 +82,16 @@ label {
 p {
   color: aliceblue;
   font-family: monospace;
-
+  padding-right: 120px;
   font-size: 20px;
+}
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(194, 214, 123);
+  color: black;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: end;
+  border-style: dotted;
 }
